@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_query"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.appuptechnologies.instantremedy.QueryActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textColorHint="#8F7BD3"
+        android:hint="add a problem title..."/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:textColor="#8F7BD3"
+        android:gravity="center"
+        android:hint="ask your problem..."/>
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Go"
+        android:id="@+id/query_go_button"
+        android:textColor="@android:color/white"
+        android:background="#8F7BD3"/>
+</LinearLayout>

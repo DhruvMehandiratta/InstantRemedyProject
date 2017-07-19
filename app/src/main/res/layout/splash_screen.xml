@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8F7BD3"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instant Remedy"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="200dp"
+        android:textSize="45dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:textSize="15dp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"
+        android:text="...providing health solutions"/>
+</LinearLayout>
