@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginBottom="0dp"
-    tools:context="com.appuptechnologies.instantremedy.LoginActivity">
+    tools:context="com.androsol.instantremedy.LoginActivity">
 
     <fragment
-        android:name="com.appuptechnologies.instantremedy.LoginFragment"
+        android:name="com.androsol.instantremedy.LoginFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/login_fragment"

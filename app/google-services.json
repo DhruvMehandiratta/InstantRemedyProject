@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "503938268186",
+    "firebase_url": "https://instantremedy-5f9d7.firebaseio.com",
+    "project_id": "instantremedy-5f9d7",
+    "storage_bucket": "instantremedy-5f9d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503938268186:android:2730afcdb95a2278",
+        "android_client_info": {
+          "package_name": "com.androsol.instantremedy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "503938268186-veoi6tj63f59hqej5j7uk1c7nfpnr5p4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.androsol.instantremedy",
+            "certificate_hash": "4d154901f664f00cf3fb5e4f37e4ff2c771b19b8"
+          }
+        },
+        {
+          "client_id": "503938268186-rhh5i3v05enqskd65u38eugg3ks3b8li.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlb4hSn8tBTyHLYNUSUZ_lb_EQXoxBC48"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "503938268186-rhh5i3v05enqskd65u38eugg3ks3b8li.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
