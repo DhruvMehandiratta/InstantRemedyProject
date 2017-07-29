@@ -9,8 +9,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.androsol.instantremedy.R;
-import com.androsol.instantremedy.RemedyActivity;
-import com.androsol.instantremedy.Symptom;
+import com.androsol.instantremedy.Activities.RemedyActivity;
+import com.androsol.instantremedy.Models.Symptom;
 
 import java.util.ArrayList;
 

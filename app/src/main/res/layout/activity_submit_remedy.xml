@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_submit_remedy"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@mipmap/ff3"
+    tools:context="com.androsol.instantremedy.Activities.SubmitRemedyActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We are happy to see you contributing!"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/happy_text"
+        android:textColor="#228B22"/>
+    <TextView
+        android:layout_below="@+id/happy_text"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:id="@+id/doctor_symptom_name_text"/>
+
+    <TextView
+        android:layout_below="@+id/doctor_symptom_name_text"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/doctor_other_symptom_text"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/doctor_description"
+        android:gravity="center"
+        android:layout_below="@+id/doctor_other_symptom_text"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#228B22"
+        android:hint="Please suggest some descriptions of the disease..."/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:textColorHint="#228B22"
+        android:hint="Please suggest some remedy for the disease..."
+        android:id="@+id/doctor_remedy"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/doctor_description"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/doctor_remedy"
+        android:gravity="center"
+        android:id="@+id/doctor_submit_button"
+        android:layout_centerInParent="true"
+        android:text="submit"
+        android:textColor="@android:color/white"
+        android:background="#228B22"/>
+</RelativeLayout>

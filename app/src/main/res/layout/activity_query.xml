@@ -9,21 +9,32 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.androsol.instantremedy.QueryActivity">
+    android:background="@mipmap/ff2"
+    tools:context="com.androsol.instantremedy.Activities.QueryActivity">
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:gravity="center"
+        android:id="@+id/unique_edittext"
         android:textColorHint="#8F7BD3"
-        android:hint="add a problem title..."/>
+        android:hint="add a unique symptom..."/>
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="150dp"
         android:textColor="#8F7BD3"
+        android:id="@+id/other_edittext"
         android:gravity="center"
-        android:hint="ask your problem..."/>
+        android:hint="add other symptoms..."/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/optional_edittext"
+        android:gravity="center"
+        android:hint="mention some other problem(s)...
+  (optional)" />
     <Button
+        android:layout_marginTop="30dp"
         android:layout_gravity="center"
         android:layout_width="100dp"
         android:layout_height="50dp"

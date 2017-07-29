@@ -1,23 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<android.support.v4.widget.DrawerLayout android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    tools:context="com.androsol.instantremedy.Activities.MainActivity">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.androsol.instantremedy.MainActivity">
+    android:background="@mipmap/ff3"
+    android:layout_height="match_parent">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/body_text"
         android:textSize="30dp"
-        android:layout_marginTop="40dp"
         android:layout_centerHorizontal="true"
         android:gravity="center"
         android:textColor="#fc7e7e"
         android:text="Choose a body part..." />
     <LinearLayout
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_below="@+id/body_text"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -28,3 +35,14 @@
         </android.support.v7.widget.RecyclerView>
     </LinearLayout>
 </RelativeLayout>
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/navigation_menu"
+        android:id="@+id/navigation_view"
+        app:headerLayout="@layout/navigation_header"
+        android:layout_gravity="start">
+
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.androsol.instantremedy">
 
     <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
         android:allowBackup="true"
@@ -12,23 +18,30 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
-            android:value="@string/facebook_app_id" />
+            android:value="@string/facebook_app_id"
+            tools:replace="android:value" />
 
         <activity
-            android:name=".MainActivity"
-            android:screenOrientation="portrait"></activity>
-        <activity android:name=".ProblemsActivity" />
-        <activity android:name=".RemedyActivity" />
-        <activity android:name=".QueryActivity" />
+            android:name=".Activities.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activities.ProblemsActivity" />
+        <activity android:name=".Activities.RemedyActivity" />
+        <activity android:name=".Activities.QueryActivity" />
         <activity
-            android:name=".LoginActivity"
-            android:screenOrientation="portrait">
+            android:name=".Activities.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activities.QueryDisplayActivity" />
+        <activity android:name=".Activities.AboutInstantRemedyActivity" />
+        <activity android:name=".Activities.SubmitRemedyActivity" />
+        <activity android:name=".Activities.LoginActivityNew"></activity>
+        <activity android:name=".Activities.Login3Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Activities.MyProfileActivity"></activity>
     </application>
 
 </manifest>

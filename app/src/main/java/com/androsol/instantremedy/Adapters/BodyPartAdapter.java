@@ -8,8 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.androsol.instantremedy.BodyPart;
-import com.androsol.instantremedy.ProblemsActivity;
+import com.androsol.instantremedy.Models.BodyPart;
+import com.androsol.instantremedy.Activities.ProblemsActivity;
 import com.androsol.instantremedy.R;
 
 import java.util.ArrayList;

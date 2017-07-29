@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_query_display_actvity_option"
+    android:title="Pending Queries List"/>
+
+    <item android:title="About InstantRemedy"
+        android:id="@+id/menu_instant_remedy_about_option"/>
+
+    <item android:title="My Profile"
+        android:id="@+id/menu_my_profile"/>
+    <item android:title="Sign Out"
+        android:id="@+id/menu_log_out"/>
+</menu>

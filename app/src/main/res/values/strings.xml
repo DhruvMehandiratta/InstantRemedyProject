@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">InstantRemedy</string>
-    <string name="facebook_app_id">1053095158160382</string>
+    <string name="facebook_app_id" translatable="false">1053095158160382</string>
+    <!--<string name="facebook_login_protocol_scheme" translatable="false">fb1053095158160382</string>-->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
 </resources>
